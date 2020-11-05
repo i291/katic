@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/poruke
+content-type: application/json
+
+{
+  "sadrzaj": "Poruka sa korisnikom",
+  "vazno": true,
+  "korisnikId": "5f9aa9ab26675177dc2ceb39"
+}
+

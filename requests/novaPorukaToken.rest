@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/poruke
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imd6YWhhcmlqYSIsImlkIjoiNWY5YWE5YWIyNjY3NTE3N2RjMmNlYjM5IiwiaWF0IjoxNjA0MDA2NjQ2fQ.hvz1mgEzQLeN97JH7Dcob3xUfMf7g2Ey30TfrEQWshc
+
+{
+  "sadrzaj": "Poruka sa tokenom",
+  "vazno": true
+}
